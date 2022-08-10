@@ -47,7 +47,7 @@ class GFG
 	}
 }
 
-// Driver code
+
 public static void main (String[] args)
 {
 	String str = "geeksforgeeks";
@@ -57,5 +57,4 @@ public static void main (String[] args)
 }
 }
 
-// This code is contributed
-// by Smitha
+
