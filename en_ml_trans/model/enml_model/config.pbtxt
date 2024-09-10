@@ -1,0 +1,24 @@
+name:"enml_model"
+platform:"c2"
+backend: "python"
+input [{
+  name: "INPUT_TEXT"
+  data_type: TYPE_STRING
+  dims: [1]
+},
+{
+  name: "INPUT_LANGUAGE_ID"
+  data_type: TYPE_STRING
+  dims: [1]
+},
+{
+  name: "OUTPUT_LANGUAGE_ID"
+  data_type: TYPE_STRING
+  dims: [1]
+}]
+  
+output [{
+  name: "OUTPUT_TEXT"
+  data_type: TYPE_STRING
+  dims: [1]
+}]
