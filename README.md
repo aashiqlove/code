@@ -1,60 +1,110 @@
-Write a program to print the following output for the given input. You can assume the string is of odd length
 
-Eg 1: Input: 12345
-       Output:
-1       5
-  2   4
-    3
-  2  4
-1      5
-Eg 2: Input: geeksforgeeks
-         Output:
-g                         s
-  e                     k
-    e                 e
-      k             e
-        s         g
-          f      r
-             o
-          f     r
-        s         g
-      k             e
-    e                 e
-  e                      k
-g                          s 
+# Project Title
+
+ This project provides a translation model that converts Hindi text into Tamil. It is built to facilitate smooth and accurate translation between these two languages. The model has been optimized using CTranslate2, which allows it to run efficiently and provides a compact model file suitable for deployment in various environments. This project is ideal for developers and organizations needing language translation support for Hindi and Tamil in their applications.
 
 
-program
 
-class GFG
-{
+   
+## Download - Model
 
+Download the model from the provided drive link: 
 
-{
-	
+```bash
+<drive link>
+```
+Alternatively, you can use the following command:
 
-	for (int i = 0; i < len; i++)
-	{
-		int j = len - 1 - i;
-		for (int k = 0; k < len; k++)
-		{
-			if (k == i || k == j)
-				System.out.print(str.charAt(k));
-			else
-				System.out.print(" ");
-		}
-		System.out.println("");
-	}
-}
+```bash
+pip install gdown
+
+gdown --folder <drive link>
+
+```
 
 
-public static void main (String[] args)
-{
-	String str = "geeksforgeeks";
-	int len = str.length();
-	pattern(str, len);
+## Deployment - Docker  
 
-}
-}
+* To create a Docker image, use the following command. Replace <Image Name> with your desired image name, and <replace/the/path/Dockerfile> with the actual path to the Dockerfile you downloaded from the drive.
+
+
+
+```bash
+## windows
+
+   docker build -t <Image Name> <replace/the/path/Dockerfile>
+```
+Or on Ubuntu:
+```bash
+## ubuntu
+
+   sudo docker build -t <Image Name> <replace/the/path/Dockerfile>
+```
+
+* After creating the Docker image, use this command to run the model. Make sure to replace <Image Name> with the actual image name you created.
+
+```bash
+## windows
+
+   docker run -ti --gpus all -p 8000:8000 -p 8001:8001 -p 8002:8002 <Image Name>
+```
+Or on Ubuntu:
+```bash
+## ubuntu
+
+   sudo docker run -ti --gpus all -p 8000:8000 -p 8001:8001 -p 8002:8002 <Image Name>
+```
+**Breakdown of the Command:**
+
+- docker run: This command starts a new container from an existing Docker image.
+
+- ti:
+
+  - t: Allocates a pseudo-TTY, which allows you to interact with the container.
+  - i: Keeps the standard input open so you can interact with the container, useful for running commands interactively.
+- --gpus all: This option enables the use of all available GPUs on the host machine inside the container. It ensures the container can access the GPU resources, which is crucial for running machine learning models or any computation that requires GPU acceleration.
+
+- -p 8000:8000 -p 8001:8001 -p 8002:8002: These options map the container’s internal ports to the host machine’s ports. In this case:
+
+  - 8000:8000: Maps the container's internal port 8000 to port 8000 on the host machine.
+  - 8001:8001: Maps port 8001 in the container to port 8001 on the host.  - 8002:8002: Maps port 8002 in the container to port 8002 on the host.
+
+    This ensures that any services running inside the container on these ports (e.g., Triton Inference Server) can be accessed externally on the same ports from the host machine.
+
+- <Image Name>: This is a placeholder for the actual name of the Docker image that was built earlier. You will replace <Image Name> with the name of your Docker image containing the model and the server.
+
+
+
+## Access the Model Using Python 
+
+* Install the required dependencies:
+
+```bash
+  pip install tritonclient[all] numpy
+```
+
+* Run the Python file NMT_tritonAPI_request.py. Before running, replace url="<url of triton server>" in the code with the actual URL of your Triton server (e.g., 192.168.85.24:8000)
+
+
+
+
+## Screenshots
+input :"50 तमिलनाडु के सर्वश्रेष्ठ पर्यटन स्थल"
+![App Screenshot](https://github.com/aashiqlove/code/blob/main/Screenshot%20from%202024-09-10%2015-37-03.png?raw=true)
+
+
+input :"तमिलनाडु राज्य में कई जगहें हैं। हालाँकि, तमिलनाडु में कुछ बेहतरीन पर्यटन स्थलों की तलाश करते समय, तमिलनाडु में घूमने के लिए सबसे अच्छी जगहों की सूची दी गई है। 
+"
+![App Screenshot ](https://github.com/aashiqlove/code/blob/main/Screenshot%20from%202024-09-10%2015-38-40.png?raw=true)
+
+
+input :"इस सूची का उपयोग कर सकते हैं और अपनी अगली यात्रा के लिए जगहों को चुन सकते हैं।"
+![App Screenshot](https://github.com/aashiqlove/code/blob/main/Screenshot%20from%202024-09-10%2016-08-46.png?raw=true)
+
+
+## Demo
+
+You can see the demo and working of the model in 
+[Machine Translation](https://searchko.co.in/transaukbc/)
 
 
