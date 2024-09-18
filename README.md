@@ -32,13 +32,13 @@ gdown --folder <drive link>
 ```bash
 ## windows
 
-   docker build -t <Image Name> <replace/the/path/Dockerfile>
+   docker build -t <Image Name> <basepath/hita_model/>
 ```
 Or on Ubuntu:
 ```bash
 ## ubuntu
 
-   sudo docker build -t <Image Name> <replace/the/path/Dockerfile>
+   sudo docker build -t <Image Name> <basepath/hita_model/>
 ```
 
 * After creating the Docker image, use this command to run the model. Make sure to replace <Image Name> with the actual image name you created.
