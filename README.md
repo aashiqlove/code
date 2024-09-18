@@ -21,7 +21,7 @@ pip install gdown
 gdown --folder <drive link>
 
 ```
-
+* The download path, we will consider as **"basePath"** in this readme
 
 ## Deployment - Docker  
 
