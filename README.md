@@ -11,7 +11,7 @@
 Download the model from the provided drive link: 
 
 ```bash
-<drive link>
+[<drive link>](https://drive.google.com/drive/folders/1D2ZW5ZjJG3QSdEdA9d8IzQX85Otlg5d-?usp=drive_link)
 ```
 Alternatively, you can use the following command:
 
