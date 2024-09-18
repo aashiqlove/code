@@ -1,5 +1,5 @@
 
-# DL-DiscoMT
+# DL-DiscoMT - Hindi to Tamil MT 
 
  This project provides a translation model that converts Hindi text into Tamil. It is built to facilitate smooth and accurate translation between these two languages. The model has been optimized using CTranslate2, which allows it to run efficiently and provides a compact model file suitable for deployment in various environments. This project is ideal for developers and organizations needing language translation support for Hindi and Tamil in their applications.
 
