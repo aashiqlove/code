@@ -11,14 +11,14 @@
 Download the model from the provided drive link: 
 
 ```bash
-[<drive link>](https://drive.google.com/drive/folders/1D2ZW5ZjJG3QSdEdA9d8IzQX85Otlg5d-?usp=drive_link)
+https://drive.google.com/drive/folders/1D2ZW5ZjJG3QSdEdA9d8IzQX85Otlg5d-?usp=drive_link
 ```
 Alternatively, you can use the following command:
 
 ```bash
 pip install gdown
 
-gdown --folder <drive link>
+gdown --folder https://drive.google.com/drive/folders/1D2ZW5ZjJG3QSdEdA9d8IzQX85Otlg5d-?usp=drive_link
 
 ```
 * The download path, we will consider as **"basePath"** in this readme
@@ -32,13 +32,13 @@ gdown --folder <drive link>
 ```bash
 ## windows
 
-   docker build -t <Image Name> <basepath/hita_model/>
+   docker build -t <Image Name> <basepath/Hin-Tam-NMT-AUKBC-ULCA-Deploy/>
 ```
 Or on Ubuntu:
 ```bash
 ## ubuntu
 
-   sudo docker build -t <Image Name> <basepath/hita_model/>
+   sudo docker build -t <Image Name> <basepath/Hin-Tam-NMT-AUKBC-ULCA-Deploy/>
 ```
 
 * After creating the Docker image, use this command to run the model. Make sure to replace <Image Name> with the actual image name you created.
