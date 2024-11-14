@@ -86,15 +86,15 @@ Or on Ubuntu:
 
 ## Screenshots
 input :"ஓய்வெடுக்கவும் மீண்டுருவாக்கவும் இது ஒரு சிறந்த இடம்."
-![App Screenshot](https://github.com/dldiscomt/DL-DiscoMT-HinTam/blob/main/OutputScreenshots/Screenshot%20from%202024-09-10%2015-37-03.png?raw=true)
+![App Screenshot](https://github.com/aashiqlove/code/blob/main/taen/Picture1.jpg?raw=true)
 
 
 input :"சாதாரண அல்லது சொகுசு படகுகளில் மக்கள் ஏரியில் படகு சவாரி செய்து மகிழலாம்."
-![App Screenshot ](https://github.com/dldiscomt/DL-DiscoMT-HinTam/blob/main/OutputScreenshots/Screenshot%20from%202024-09-10%2015-38-40.png?raw=true)
+![App Screenshot ](https://github.com/aashiqlove/code/blob/main/taen/Picture2.jpg?raw=true)
 
 
 input :"மக்கள் சைக்கிள் மற்றும் குதிரை சவாரிகளில் ஏரியைச் சுற்றி வருகிறார்கள்."
-![App Screenshot](https://github.com/dldiscomt/DL-DiscoMT-HinTam/blob/main/OutputScreenshots/Screenshot%20from%202024-09-10%2016-08-46.png?raw=true)
+![App Screenshot](https://github.com/aashiqlove/code/blob/main/taen/Picture3.jpg?raw=true)
 
 
 ## Demo
