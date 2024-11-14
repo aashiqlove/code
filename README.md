@@ -2,17 +2,13 @@
 # DL-DiscoMT - Hindi to Tamil MT 
 
  This project provides a translation model that converts Hindi text into Tamil. It is built to facilitate smooth and accurate translation between these two languages. The model has been optimized using CTranslate2, which allows it to run efficiently and provides a compact model file suitable for deployment in various environments. This project is ideal for developers and organizations needing language translation support for Hindi and Tamil in their applications.
-
-
-
    
 ## Download - Model
 
 Download the model from the provided drive link: 
 
-```bash
-https://drive.google.com/drive/folders/1D2ZW5ZjJG3QSdEdA9d8IzQX85Otlg5d-?usp=drive_link
-```
+   [https://drive.google.com/drive/folders/1D2ZW5ZjJG3QSdEdA9d8IzQX85Otlg5d-?usp=drive_link](https://drive.google.com/drive/folders/1D2ZW5ZjJG3QSdEdA9d8IzQX85Otlg5d-?usp=drive_link)
+
 Alternatively, you can use the following command:
 
 ```bash
@@ -26,7 +22,6 @@ gdown --folder https://drive.google.com/drive/folders/1D2ZW5ZjJG3QSdEdA9d8IzQX85
 ## Deployment - Docker  
 
 * To create a Docker image, use the following command. Replace <Image Name> with your desired image name, and <replace/the/path/Dockerfile> with the actual path to the Dockerfile you downloaded from the drive.
-
 
 
 ```bash
@@ -90,16 +85,16 @@ Or on Ubuntu:
 
 ## Screenshots
 input :"50 तमिलनाडु के सर्वश्रेष्ठ पर्यटन स्थल"
-![App Screenshot](https://github.com/aashiqlove/code/blob/main/Screenshot%20from%202024-09-10%2015-37-03.png?raw=true)
+![App Screenshot](https://github.com/dldiscomt/DL-DiscoMT-HinTam/blob/main/OutputScreenshots/Screenshot%20from%202024-09-10%2015-37-03.png?raw=true)
 
 
 input :"तमिलनाडु राज्य में कई जगहें हैं। हालाँकि, तमिलनाडु में कुछ बेहतरीन पर्यटन स्थलों की तलाश करते समय, तमिलनाडु में घूमने के लिए सबसे अच्छी जगहों की सूची दी गई है। 
 "
-![App Screenshot ](https://github.com/aashiqlove/code/blob/main/Screenshot%20from%202024-09-10%2015-38-40.png?raw=true)
+![App Screenshot ](https://github.com/dldiscomt/DL-DiscoMT-HinTam/blob/main/OutputScreenshots/Screenshot%20from%202024-09-10%2015-38-40.png?raw=true)
 
 
 input :"इस सूची का उपयोग कर सकते हैं और अपनी अगली यात्रा के लिए जगहों को चुन सकते हैं।"
-![App Screenshot](https://github.com/aashiqlove/code/blob/main/Screenshot%20from%202024-09-10%2016-08-46.png?raw=true)
+![App Screenshot](https://github.com/dldiscomt/DL-DiscoMT-HinTam/blob/main/OutputScreenshots/Screenshot%20from%202024-09-10%2016-08-46.png?raw=true)
 
 
 ## Demo
@@ -108,3 +103,5 @@ You can see the demo and working of the model in
 [Machine Translation](https://searchko.co.in/transaukbc/)
 
 
+## License
+CC BY 4.0 
