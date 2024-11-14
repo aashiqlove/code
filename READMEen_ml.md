@@ -87,16 +87,16 @@ Or on Ubuntu:
 ## Screenshots
 input :"A ticket examiner&#39;s swift response and preparedness to tackle a medical emergency saved
 an elderly passenger&#39;s life after he suffered a heart attack during a long-distance train journey."
-![App Screenshot](https://github.com/dldiscomt/DL-DiscoMT-HinTam/blob/main/OutputScreenshots/Screenshot%20from%202024-09-10%2015-37-03.png?raw=true)
+![App Screenshot](https://github.com/aashiqlove/code/blob/main/enml/Picture1.jpg?raw=true)
 
 
 input :"BP Karn and his brother were travelling from Bihar&#39;s Darbhanga to Uttar Pradesh&#39;s Varanasi
 in a first-class coach of Pawan Express."
-![App Screenshot ](https://github.com/dldiscomt/DL-DiscoMT-HinTam/blob/main/OutputScreenshots/Screenshot%20from%202024-09-10%2015-38-40.png?raw=true)
+![App Screenshot ](https://github.com/aashiqlove/code/blob/main/enml/Picture2.jpg?raw=true)
 
 
 input :"A cash prize has also been announced."
-![App Screenshot](https://github.com/dldiscomt/DL-DiscoMT-HinTam/blob/main/OutputScreenshots/Screenshot%20from%202024-09-10%2016-08-46.png?raw=true)
+![App Screenshot](https://github.com/aashiqlove/code/blob/main/enml/Picture3.jpg?raw=true)
 
 
 ## Demo
