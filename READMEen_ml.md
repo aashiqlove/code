@@ -92,7 +92,8 @@ an elderly passenger&#39;s life after he suffered a heart attack during a long-d
 
 input :"BP Karn and his brother were travelling from Bihar&#39;s Darbhanga to Uttar Pradesh&#39;s Varanasi
 in a first-class coach of Pawan Express."
-[App Screenshot ](https://github.com/aashiqlove/code/blob/main/enml/Picture2.jpg?raw=true)
+<br>
+![App Screenshot ](https://github.com/aashiqlove/code/blob/main/enml/Picture2.jpg?raw=true)
 
 
 input :"A cash prize has also been announced."
