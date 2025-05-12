@@ -6,14 +6,14 @@
 
 Download the model from the provided drive link: 
 
-   <google drive link>
+   [Drive link](Drive link)
 
 Alternatively, you can use the following command:
 
 ```bash
 pip install gdown
 
-gdown --folder <google drive link>
+gdown --folder <drive link>
 
 ```
 * The download path, we will consider as **"basePath"** in this readme
