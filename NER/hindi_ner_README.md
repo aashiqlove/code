@@ -6,7 +6,7 @@
 
 Download the model from the provided drive link: 
 
-   <google drive link >
+   "<google drive link >"
 
 Alternatively, you can use the following command:
 
