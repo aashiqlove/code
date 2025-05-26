@@ -84,15 +84,15 @@ Or on Ubuntu:
 
 ## Screenshots
 input :"सानासर रोड पर पटनीटॉप से छह किलोमीटर की दूरी पर स्थित माधाटॉप में स्कीइंग की बेहतरीन जगह है."
-![App Screenshot](https://github.com/dldiscomt/DL-DiscoMT-HinTam/blob/main/OutputScreenshots/Screenshot%20from%202024-09-10%2015-37-03.png?raw=true)
+![App Screenshot](https://github.com/aashiqlove/code/blob/main/NER/picture/hipicture-1.jpg?raw=true)
 
 
 input :"ऐसे में आपकी जेब पर ज्यादा बोझ भी नहीं पड़ेगा और आप चैन से अपनी छुट्टियां भी बिता सकेंगे"
-![App Screenshot ](https://github.com/dldiscomt/DL-DiscoMT-HinTam/blob/main/OutputScreenshots/Screenshot%20from%202024-09-10%2015-38-40.png?raw=true)
+![App Screenshot ](https://github.com/aashiqlove/code/blob/main/NER/picture/hipicture-2.jpg?raw=true)
 
 
 input :"बेशक थाईलैंड का यह टूर शरीर , आत्मा और दिमाग , तीनों को विस्मित व बांधने वाला रहा "
-![App Screenshot](https://github.com/dldiscomt/DL-DiscoMT-HinTam/blob/main/OutputScreenshots/Screenshot%20from%202024-09-10%2016-08-46.png?raw=true)
+![App Screenshot](https://github.com/aashiqlove/code/blob/main/NER/picture/hipicture-3.jpg?raw=true)
 
 
 
