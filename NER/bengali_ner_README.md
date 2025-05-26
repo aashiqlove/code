@@ -6,14 +6,14 @@
 
 Download the model from the provided drive link: 
 
-   <google drive link >
+   [Drive link](Drive link)
 
 Alternatively, you can use the following command:
 
 ```bash
 pip install gdown
 
-gdown --folder <google drive link>
+gdown --folder <drive link>
 
 ```
 * The download path, we will consider as **"basePath"** in this readme
@@ -83,17 +83,16 @@ Or on Ubuntu:
 
 
 ## Screenshots
-input :"50 तमिलनाडु के सर्वश्रेष्ठ पर्यटन स्थल"
-![App Screenshot](https://github.com/dldiscomt/DL-DiscoMT-HinTam/blob/main/OutputScreenshots/Screenshot%20from%202024-09-10%2015-37-03.png?raw=true)
+input :"কারণ মিষ্টার জেঠমালানি নিজেই বলেছেন আমাকে যে এই চৌত্রিশ নম্বর ঘরের প্রতি তার বিশেষ টান আছে ৷"
+![App Screenshot](https://github.com/aashiqlove/code/blob/main/NER/picture/benpicture-1.jpg?raw=true)
 
 
-input :"तमिलनाडु राज्य में कई जगहें हैं। हालाँकि, तमिलनाडु में कुछ बेहतरीन पर्यटन स्थलों की तलाश करते समय, तमिलनाडु में घूमने के लिए सबसे अच्छी जगहों की सूची दी गई है। 
-"
-![App Screenshot ](https://github.com/dldiscomt/DL-DiscoMT-HinTam/blob/main/OutputScreenshots/Screenshot%20from%202024-09-10%2015-38-40.png?raw=true)
+input :"ওটা নিয়ে জগদীশ জেঠমালানি আর তার ভাগ্নে মাথা ঘামান ৷"
+![App Screenshot ](https://github.com/aashiqlove/code/blob/main/NER/picture/benpicture-2.jpg?raw=true)
 
 
-input :"इस सूची का उपयोग कर सकते हैं और अपनी अगली यात्रा के लिए जगहों को चुन सकते हैं।"
-![App Screenshot](https://github.com/dldiscomt/DL-DiscoMT-HinTam/blob/main/OutputScreenshots/Screenshot%20from%202024-09-10%2016-08-46.png?raw=true)
+input :"শান্তিনিকেতনে দীর্ঘকাল না থাকলেও এই সময়টাই নাকি ছিল তাঁদের জীবনের সবচেয়ে সুখকর অধ্যায় ৷"
+![App Screenshot](https://github.com/aashiqlove/code/blob/main/NER/picture/benpicture-3.jpg?raw=true)
 
 
 
