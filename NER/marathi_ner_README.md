@@ -90,6 +90,17 @@ input :"काळाची पावले ओळखून नेमके क�
 input :"विजय भटकर यांनी येथे केले."
 ![App Screenshot ](https://github.com/aashiqlove/code/blob/main/NER/picture/marpicture-2.jpg?raw=true)
 
+# README
+
+## Input
+विजय भटकर यांनी येथे केले.
+
+<br>
+
+![App Screenshot](https://github.com/aashiqlove/code/blob/main/NER/picture/marpicture-2.jpg?raw=true)
+
+<br>
+
 
 input :"भटकर यांच्या हस्ते झाले."
 ![App Screenshot](https://github.com/aashiqlove/code/blob/main/NER/picture/marpicture-3.jpg?raw=true)
